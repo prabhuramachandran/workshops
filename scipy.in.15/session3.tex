@@ -319,7 +319,7 @@ of NX x NY pixels and 4 shades.\\
 \frametitle{Slicing \& Striding Exercises}
   \begin{itemize}
   \item Crop the image to get the top-left quarter
-  \item Crop the image to get only the face
+  \item Crop the image to get only the bird
   \item Resize image to half by dropping alternate pixels
   \end{itemize}
 \end{frame}
@@ -328,13 +328,13 @@ of NX x NY pixels and 4 shades.\\
   \frametitle{Solutions}
 \begin{small}
   \begin{lstlisting}
-In []: imshow(a[:256,:256])
+In []: imshow(a[:256, :256])
 Out[]: <matplotlib.image.AxesImage object at 0xb6f658c>
 
-In []: imshow(a[200:400,200:400])
+In []: imshow(a[100:300, 300:550])
 Out[]: <matplotlib.image.AxesImage object at 0xb757c2c>
 
-In []: imshow(a[::2,::2])
+In []: imshow(a[::2, ::2])
 Out[]: <matplotlib.image.AxesImage object at 0xb765c8c>
   \end{lstlisting}
 \end{small}
