@@ -1,0 +1,13 @@
+# use glob syntax.
+*.aux
+*.dvi
+*.log
+*.nav
+*.snm
+*.toc
+*.pdf
+*.vrb
+*.out
+*.sty
+*.pyc
+*.zip
